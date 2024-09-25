@@ -187,7 +187,10 @@ You can follow this GIF to get a better understanding:
 ### Step 6:
 This step is only necessary for you to be able to do the */giveitem* command or to put items in the qb-shops.
 
+
 Navigate to inventoryname/server/server.lua, and CTRL + F the following line:
+<br>
+*Note: In QBCore it is “qb-inventory/server/commands.lua”*
 ```Lua
 				elseif itemData["name"] == "harness" then
 					info.uses = 20
